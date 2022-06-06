@@ -371,6 +371,10 @@ and (max-width: 500px){
 }
 @media screen and (min-width: 500px)
 and (max-width: 767px){
+     body{
+        height: auto;
+        background-size: auto;
+    }
     .home{
         flex-direction: column;
         justify-content: center;
